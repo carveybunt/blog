@@ -1,4 +1,5 @@
 const nav = require('./nav.js');
+const htmlModules = require('./htmlModules.js');
 
 // 主题配置
 module.exports = {
@@ -63,6 +64,8 @@ module.exports = {
   footer: {
     createYear: 2022,
     copyrightInfo:
-      'carveybunt | <a href="https://github.com/carveybunt/blog/blob/main/LICENSE">MIT License</a>',
-  }
+      'carveybunt | <a href="https://github.com/carveybunt/blog/blob/master/LICENSE">MIT License</a>',
+  },
+  // 插入html(广告)模块
+  htmlModules
 }
