@@ -1,4 +1,4 @@
-name: MY
+name: auto-deploy
 
 # 在master分支发生push事件时触发。
 on:
@@ -57,12 +57,12 @@ jobs:
           # 展示详细日志
           verbose: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKENS }}
 
       - uses: Mattraks/delete-workflow-runs@main
         # 移除以前的所有 Workflows 运行记录
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.ACCESS_TOKENS }}
           repository: ${{ github.repository }}
           # 仅保留最近7天的日志
           retain_days: 7
