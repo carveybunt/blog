@@ -43,7 +43,7 @@ jobs:
 
       - name: Build site
         # 使用 Yarn 执行项目构建
-        run: yarn build && cd dist && echo 'xugaoyi.com' > CNAME
+        run: yarn build && cd dist && echo 'www.carveybunt' > CNAME
 
       - uses: crazy-max/ghaction-github-pages@v2
         # 将构建产物部署到 GitHub Pages
