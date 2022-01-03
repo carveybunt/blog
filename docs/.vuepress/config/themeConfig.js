@@ -33,7 +33,6 @@ module.exports = {
   // 博主信息，显示在首页侧边栏
   blogger: {
     avatar: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fnimg.ws.126.net%2F%3Furl%3Dhttp%253A%252F%252Fdingyue.ws.126.net%252F2021%252F0731%252F64bb6639j00qx3w4x000oc000hs00cnm.jpg%26thumbnail%3D650x2147483647%26quality%3D80%26type%3Djpg&refer=http%3A%2F%2Fnimg.ws.126.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643616351&t=33b58d27e3832fcddf2e38493a30217f',
-//     avatar: 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
     name: '诚城',
     slogan: '我有N个梦想……',
   },
