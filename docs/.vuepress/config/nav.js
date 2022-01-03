@@ -106,7 +106,7 @@ module.exports = [
         { text: "phpstorm", link: "/tools/jetbrains/phpstorm/" },
         { text: "clion", link: "/tools/jetbrains/clion/" },
       ]},
-      
+      { text: "latex", link: "/tools/latex/" },
     ],
   },
 ];
