@@ -64,6 +64,10 @@ module.exports = [
         { text: "Vue3", link: "/frontend/frame/vue3/" },
         { text: "Vue2", link: "/frontend/frame/vue2/" },
       ]},
+      { text: "拓展包",items: [
+        { text: "包管理工具", link: "/frontend/package/tool/" },
+        { text: "包开发", link: "/frontend/package/development/" },
+      ]},
     ],
   },
   {
