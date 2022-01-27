@@ -29,9 +29,9 @@ module.exports = [
       },
       {
         text: "英一",
-        link: "/postgraduate/english/",
+        link: "/postgraduate/english/guide/",
         items: [
-          { text: "单词", link: "/postgraduate/english/word/" },
+          { text: "单词", link: "/postgraduate/english/words/dis/" },
           { text: "语法", link: "/postgraduate/english/grammar/" },
           { text: "长难句", link: "/postgraduate/english/Sentence/" },
           { text: "作文", link: "/postgraduate/english/composition/" }
