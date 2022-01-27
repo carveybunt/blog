@@ -5,6 +5,7 @@ module.exports = [
     text: "考研",
     link: "/postgraduate/",
     items: [
+      { text: "高数基础", link: "/math/base/index_logarithm/" },
       {
         text: "数一",
         link: "/postgraduate/math/",
