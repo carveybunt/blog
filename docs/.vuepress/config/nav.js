@@ -34,6 +34,7 @@ module.exports = [
           { text: "单词", link: "/postgraduate/english/words/dis/" },
           { text: "语法", link: "/postgraduate/english/grammar/" },
           { text: "长难句", link: "/postgraduate/english/Sentence/" },
+          { text: "阅读理解", link: "/postgraduate/english/reading/" },
           { text: "作文", link: "/postgraduate/english/composition/" }
         ],
       },
