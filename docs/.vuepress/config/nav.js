@@ -81,7 +81,7 @@ module.exports = [
         { text: "Phyton", link: "/backend/languauge/phyton/" },
       ]},
       { text: "框架", link: "/backend/frame/",items: [
-        { text: "Laravel", link: "/backend/frame/laravel/" },
+        { text: "Laravel", link: "/backend/frame/laravel/guide/" },
       ]},
     ],
   },
