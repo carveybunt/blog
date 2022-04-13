@@ -97,7 +97,7 @@ module.exports = [
           // { text: "中级会计", link: "/powers/accountant/Intermediate" },
         ]},
         { text: "软考", link: "/computer-software-exam/",items: [
-          { text: "信息系统项目管理师", link: "/computer-software-exam/project/hight/" },
+          { text: "信息系统项目管理师", link: "/computer-software-exam/project/hight/guide/" },
         ]},
     ],
   },
@@ -107,11 +107,12 @@ module.exports = [
     items: [
       { text: "git", link: "/tools/git/" },
       { text: "vsCode", link: "/tools/vscode/" },
+      { text: "latex", link: "/tools/latex/setting/" },
+      { text: "docker", link: "/tools/docker/guide/" },
       { text: "Jetbrains", link: "/tools/jetbrains/",items: [
         { text: "phpstorm", link: "/tools/jetbrains/phpstorm/" },
         { text: "clion", link: "/tools/jetbrains/clion/" },
       ]},
-      { text: "latex", link: "/tools/latex/setting/" },
     ],
   },
 ];
