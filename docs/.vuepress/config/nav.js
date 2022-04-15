@@ -62,7 +62,7 @@ module.exports = [
         { text: "css3", link: "/frontend/ui/css3/" },
       ]},
       { text: "框架", link: "/frontend/frame/",items: [
-        { text: "Vue3", link: "/frontend/frame/vue3/" },
+        { text: "Vue3", link: "/frontend/frame/vue3/start/" },
         { text: "Vue2", link: "/frontend/frame/vue2/" },
       ]},
       { text: "拓展包",items: [
