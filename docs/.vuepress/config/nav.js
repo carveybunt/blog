@@ -109,6 +109,7 @@ module.exports = [
       { text: "vsCode", link: "/tools/vscode/" },
       { text: "latex", link: "/tools/latex/setting/" },
       { text: "docker", link: "/tools/docker/guide/" },
+      { text: "axios", link: "/tools/axios/" },
       { text: "Jetbrains", link: "/tools/jetbrains/",items: [
         { text: "phpstorm", link: "/tools/jetbrains/phpstorm/" },
         { text: "clion", link: "/tools/jetbrains/clion/" },
