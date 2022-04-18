@@ -97,7 +97,7 @@ module.exports = [
           // { text: "中级会计", link: "/powers/accountant/Intermediate" },
         ]},
         { text: "软考", link: "/computer-software-exam/",items: [
-          { text: "信息系统项目管理师", link: "/computer-software-exam/project/hight/guide/" },
+          { text: "信息系统项目管理师", link: "/computer-software-exam/project/hight/" },
         ]},
     ],
   },

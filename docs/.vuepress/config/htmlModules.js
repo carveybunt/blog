@@ -32,6 +32,9 @@
       本站所有内容均为个人理解或转载，如有不当之处，敬请大佬指导！
       </p>
       </div>`,
+      // 小熊猫
+      windowLB:
+        `<img src="/img/panda-waving.png" class="panda no-zoom" style="width: 130px;height: 115px;opacity: 0.8;margin-bottom: -4px;padding-bottom:0;position: fixed;bottom: 0;left: 0.5rem;z-index: 1;">`,
     // `<!-- 纵向自适应 -->
     // <ins class="adsbygoogle"
     //     style="display:block;padding: 0.95rem;"
