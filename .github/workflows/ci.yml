@@ -41,9 +41,9 @@ jobs:
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn install
 
-      - name: Build site
-        # 使用 Yarn 执行项目构建
-        run: yarn build && cd dist && echo 'www.carveybunt.cn' > CNAME
+      # - name: Build site
+      #   # 使用 Yarn 执行项目构建
+      #   run: yarn build && cd dist && echo 'www.carveybunt.cn' > CNAME
 
       - uses: crazy-max/ghaction-github-pages@v2
         # 将构建产物部署到 GitHub Pages
