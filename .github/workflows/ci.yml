@@ -67,4 +67,4 @@ jobs:
           # 仅保留最近7天的日志
           retain_days: 7
           # 仅保留最近4次的日志
-          keep_minimum_runs: 4
+          keep_minimum_runs: 6
