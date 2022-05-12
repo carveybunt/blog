@@ -1,10 +1,9 @@
 name: Pages
-# 在master分支发生push事件时触发
+
 on:
   push:
     branches:
       - master
-      # master 分支
 
 env:
   # 配置时区（用于 Git 生成时间戳）
@@ -59,7 +58,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: Mattraks/delete-workflow-runs@v2
+      - uses: Mattraks/delete-workflow-runs@main
         # 移除以前的所有 Workflows 运行记录
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
