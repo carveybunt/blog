@@ -1,5 +1,6 @@
-name: Pages
+name: auto-deploy
 
+# 在master分支发生push事件时触发。
 on:
   push:
     branches:
@@ -42,7 +43,7 @@ jobs:
 
       - name: Build site
         # 使用 Yarn 执行项目构建
-        run: yarn build
+        run: yarn build && cd dist && echo 'www.carveybunt.cn' > CNAME
 
       - uses: crazy-max/ghaction-github-pages@v2
         # 将构建产物部署到 GitHub Pages
@@ -58,8 +59,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MY_BLOG }}
 
-      - name: Delete workflow runs
-        uses: Mattraks/delete-workflow-runs@v2
+      - uses: Mattraks/delete-workflow-runs@v2
         # 移除以前的所有 Workflows 运行记录
         with:
           token: ${{ secrets.MY_BLOG }}
