@@ -58,7 +58,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: Mattraks/delete-workflow-runs@main
+      - uses: Mattraks/delete-workflow-runs@v2
         # 移除以前的所有 Workflows 运行记录
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
