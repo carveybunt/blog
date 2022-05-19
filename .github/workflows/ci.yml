@@ -62,8 +62,8 @@ jobs:
       - uses: Mattraks/delete-workflow-runs@v2
         # 移除以前的所有 Workflows 运行记录
         with:
-          # token: ${{ secrets.MY_BLOG }}
-          token: ${{ github.token }}
+          token: ${{ secrets.MY_BLOG }}
+          # token: ${{ github.token }}
           repository: ${{ github.repository }}
           # 仅保留最近7天的日志
           retain_days: 7
