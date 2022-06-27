@@ -76,11 +76,11 @@ module.exports = [
     link: "/backend/",
     items: [
       { text: "开发语言", link: "/backend/languauge/",items: [
-        { text: "PHP", link: "/php/" },
-        { text: "Phyton", link: "/phyton/" },
+        { text: "PHP", link: "/backend/languauge/php/" },
+        { text: "Phyton", link: "/backend/languauge/phyton/" },
       ]},
       { text: "框架", link: "/backend/frame/",items: [
-        { text: "Laravel", link: "/laravel/guide/" },
+        { text: "Laravel", link: "/backend/frame/laravel/" },
       ]},
     ],
   },
@@ -95,8 +95,8 @@ module.exports = [
           { text: "初级会计实务", link: "/powers/accountant/junior/practice/" },
           // { text: "中级会计", link: "/powers/accountant/Intermediate" },
         ]},
-        { text: "软考", link: "/computer-software-exam/",items: [
-          { text: "信息系统项目管理师", link: "/computer-software-exam/project/hight/" },
+        { text: "软考", link: "/powers/computer-software-exam/",items: [
+          { text: "信息系统项目管理师", link: "/powers/computer-software-exam/project/hight/" },
         ]},
     ],
   },
