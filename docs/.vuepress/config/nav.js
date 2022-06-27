@@ -22,7 +22,7 @@ module.exports = [
         text: "820",
         link: "/postgraduate/820/",
         items: [
-          { text: "C语言", link: "/postgraduate/820/c/" },
+          { text: "C语言", link: "/c/" },
           { text: "数据结构", link: "/postgraduate/820/data-struct/" },
           { text: "计算机操作系统", link: "/postgraduate/820/os/" },
         ],
@@ -73,15 +73,14 @@ module.exports = [
   },
   {
     text: "后端",
-    link: "/backend/",
+    link: "/backends/",
     items: [
-      { text: "开发语言", link: "/backend/languauge/",items: [
-        { text: "C语言", link: "/backend/820/c/" },
+      { text: "开发语言", link: "/backends/languauge/",items: [
         { text: "PHP", link: "/php/" },
-        { text: "Phyton", link: "/backend/languauge/phyton/" },
+        { text: "Phyton", link: "/phyton/" },
       ]},
-      { text: "框架", link: "/backend/frame/",items: [
-        { text: "Laravel", link: "/backend/frame/laravel/guide/" },
+      { text: "框架", link: "/backends/frame/",items: [
+        { text: "Laravel", link: "/laravel/guide/" },
       ]},
     ],
   },

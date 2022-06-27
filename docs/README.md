@@ -14,7 +14,7 @@ features:
     link: /frontend/
   - title: 后端
     imgUrl: /assets/img/skill.svg
-    link: /backend/
+    link: /backends/
 ---
 
 <!-- 小熊猫 -->
