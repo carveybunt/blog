@@ -73,13 +73,13 @@ module.exports = [
   },
   {
     text: "后端",
-    link: "/backends/",
+    link: "/backend/",
     items: [
-      { text: "开发语言", link: "/backends/languauge/",items: [
+      { text: "开发语言", link: "/backend/languauge/",items: [
         { text: "PHP", link: "/php/" },
         { text: "Phyton", link: "/phyton/" },
       ]},
-      { text: "框架", link: "/backends/frame/",items: [
+      { text: "框架", link: "/backend/frame/",items: [
         { text: "Laravel", link: "/laravel/guide/" },
       ]},
     ],
