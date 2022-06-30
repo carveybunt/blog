@@ -23,8 +23,8 @@ module.exports = [
         link: "/postgraduate/820/",
         items: [
           { text: "C语言", link: "/c/" },
-          { text: "数据结构", link: "/postgraduate/820/data-struct/" },
-          { text: "计算机操作系统", link: "/postgraduate/820/os/" },
+          { text: "数据结构", link: "/postgraduate/data-struct/" },
+          { text: "计算机操作系统", link: "/postgraduate/os/" },
         ],
       },
       {
