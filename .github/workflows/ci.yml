@@ -64,7 +64,7 @@ jobs:
         with:
           # token: ${{ secrets.GITHUB_TOKEN }}
           # token: ${{ github.token }}
-          token: ${{ secrets.MY_BLOG }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
           # 仅保留最近7天的日志
           retain_days: 7
