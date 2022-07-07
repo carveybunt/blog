@@ -61,10 +61,13 @@ module.exports = [
         { text: "html5", link: "/frontend/ui/html5/" },
         { text: "css3", link: "/frontend/ui/css3/" },
       ]},
-      { text: "框架", link: "/frontend/frame/",items: [
-        { text: "Vue3", link: "/frontend/frame/vue3/start/" },
-        { text: "Vue2", link: "/frontend/frame/vue2/" },
-      ]},
+      { text: "框架", 
+        // link: "/frontend/frame/",
+        items: [
+          { text: "Vue3", link: "/frontend/vue3/start/" },
+          { text: "Vue2", link: "/frontend/vue2/" },
+        ]
+      },
       { text: "拓展包",items: [
         { text: "包管理工具", link: "/frontend/package/tool/" },
         { text: "包开发", link: "/frontend/package/development/" },
