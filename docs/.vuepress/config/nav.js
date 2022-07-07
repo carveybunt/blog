@@ -54,12 +54,13 @@ module.exports = [
     text: "前端",
     link: "/frontend/",
     items: [
-      { text: "UI", link: "/frontend/ui/",items: [
-        { text: "Tailwind Css", link: "/frontend/ui/tailwind-css/" },
-        { text: "Element-Plus", link: "/frontend/ui/element-plus/" },
-        { text: "color UI", link: "/frontend/ui/color-ui/" },
-        { text: "html5", link: "/frontend/ui/html5/" },
-        { text: "css3", link: "/frontend/ui/css3/" },
+      { text: "html5", link: "/html5/" },
+      { text: "css3", link: "/frontend/ui/css3/" },
+      { text: "UI", items: [
+        { text: "Tailwind Css", link: "/frontend/tailwind-css/" },
+        { text: "Element-Plus", link: "/frontend/element-plus/" },
+        { text: "UniApp", link: "/frontend/uniapp/" },
+        { text: "color UI", link: "/frontend/color-ui/" },
       ]},
       { text: "框架", 
         // link: "/frontend/frame/",
