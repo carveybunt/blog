@@ -25,7 +25,6 @@ module.exports = [
         text: '820',
         link: '/postgraduate/820/',
         items: [
-          { text: 'C语言', link: '/c/' },
           { text: '数据结构', link: '/postgraduate/data-struct/' },
           { text: '计算机操作系统', link: '/postgraduate/os/' }
         ]
@@ -52,6 +51,11 @@ module.exports = [
         ]
       }
     ]
+  },
+  {
+    text: '人工智能',
+    link: 'ai',
+    items: [{ text: 'openpose', link: '/ai/openpose/introduction/' }]
   },
   {
     text: '前端',
@@ -89,6 +93,7 @@ module.exports = [
         text: '开发语言',
         link: '/backend/languauge/',
         items: [
+          { text: 'C语言', link: '/backend/languauge/c/' },
           { text: 'PHP', link: '/backend/languauge/php/' },
           { text: 'Phyton', link: '/backend/languauge/phyton/' }
         ]
