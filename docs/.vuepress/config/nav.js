@@ -144,6 +144,8 @@ module.exports = [
       { text: 'latex', link: '/tools/latex/setting/' },
       { text: 'docker', link: '/tools/docker/guide/' },
       { text: 'axios', link: '/tools/axios/' },
+      { text: 'vim', link: '/tools/vim/' },
+      { text: 'mac', link: '/tools/mac/' },
       {
         text: 'Jetbrains',
         link: '/tools/jetbrains/',
