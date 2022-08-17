@@ -139,6 +139,7 @@ module.exports = [
     text: '工具',
     link: '/tools/',
     items: [
+      { text: 'manim', link: '/tools/manim/' },
       { text: 'git', link: '/tools/git/' },
       { text: 'vsCode', link: '/tools/vscode/' },
       { text: 'latex', link: '/tools/latex/setting/' },
