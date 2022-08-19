@@ -132,6 +132,21 @@ module.exports = [
             link: '/powers/computer-software-exam/project/hight/'
           }
         ]
+      },
+      {
+        text: '博客',
+        link: '/powers/blog/',
+        items: [
+          {
+            text: 'vitepress',
+            link: '/powers/blog/vitepress/'
+          },
+          {
+            text: 'vuepress',
+            link: '/powers/blog/vuepress/'
+          },
+          
+        ]
       }
     ]
   },
