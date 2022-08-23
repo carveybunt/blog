@@ -27,7 +27,7 @@
 
 - [Vdoing](https://doc.xugaoyi.com/)：🚀一款简洁高效的 *VuePress* 知识管理与博客主题
 
-  > 感谢 Evan Xu（[@xugaoyi](https://github.com/xugaoyi)）开发的主题样式，能够让此站点的界面布局如此精美。没有这个工具，此站点也将无比单调、毫无生机。
+  > 感谢 Evan Xu（[@xugaoyi](https://github.com/carveybunt)）开发的主题样式，能够让此站点的界面布局如此精美。没有这个工具，此站点也将无比单调、毫无生机。
 
 - [Study-Notes](https://github.com/Dragon1573/Study-Notes)：Footnotes plugin for markdown-it markdown parser
 
