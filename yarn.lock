@@ -10780,6 +10780,11 @@ vuepress-plugin-one-click-copy@^1.0.2:
   resolved "https://registry.nlark.com/vuepress-plugin-one-click-copy/download/vuepress-plugin-one-click-copy-1.0.6.tgz#71563b1851013705fab6d48b0bda6028dddbf0e7"
   integrity sha1-cVY7GFEBNwX6ttSLC9pgKN3b8Oc=
 
+vuepress-plugin-sakura@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.npmmirror.com/vuepress-plugin-sakura/-/vuepress-plugin-sakura-1.2.1.tgz#4e69a41e49246a13c416d847586a3a7153c1289a"
+  integrity sha512-76q8SsTZngGIZB3+HQvZBUPn8DfgUreei2n6CINmsR0hc7zom5eOWbL0VbxVMnJc7axL1ED3etZuBd68TaBIxg==
+
 vuepress-plugin-smooth-scroll@^0.0.3:
   version "0.0.3"
   resolved "https://registry.npmmirror.com/vuepress-plugin-smooth-scroll/-/vuepress-plugin-smooth-scroll-0.0.3.tgz#6eff2d4c186cca917cc9f7df2b0af7de7c8c6438"
