@@ -157,7 +157,7 @@ module.exports = [
       { text: 'manim', link: '/tools/manim/introduction/' },
       { text: 'git', link: '/tools/git/' },
       { text: 'vsCode', link: '/tools/vscode/' },
-      { text: 'latex', link: '/tools/latex/setting/' },
+      { text: 'latex', link: '/tools/latex/introduction/' },
       { text: 'docker', link: '/tools/docker/guide/' },
       { text: 'axios', link: '/tools/axios/' },
       { text: 'vim', link: '/tools/vim/' },
