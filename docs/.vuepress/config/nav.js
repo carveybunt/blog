@@ -55,7 +55,10 @@ module.exports = [
   {
     text: '人工智能',
     link: 'ai',
-    items: [{ text: 'openpose', link: '/ai/openpose/introduction/' }]
+    items: [
+      { text: 'robot', link: '/ai/robot/introduction/' },
+      { text: 'openpose', link: '/ai/openpose/introduction/' }
+    ]
   },
   {
     text: '前端',
