@@ -69,7 +69,7 @@ module.exports = [
       {
         text: 'UI',
         items: [
-          { text: 'Tailwind Css', link: '/frontend/tailwind-css/' },
+          { text: 'Tailwind Css', link: '/frontend/tailwind-css/guide/' },
           { text: 'Element-Plus', link: '/frontend/element-plus/' },
           { text: 'UniApp', link: '/frontend/uniapp/' }
         ]
