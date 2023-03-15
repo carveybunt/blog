@@ -147,8 +147,7 @@ module.exports = [
           {
             text: 'vuepress',
             link: '/powers/blog/vuepress/'
-          },
-          
+          }
         ]
       }
     ]
@@ -164,7 +163,7 @@ module.exports = [
       { text: 'docker', link: '/tools/docker/guide/' },
       { text: 'axios', link: '/tools/axios/' },
       { text: 'vim', link: '/tools/vim/' },
-      { text: 'mac', link: '/tools/mac/' },
+      { text: 'mac', link: '/mac/' },
       {
         text: 'Jetbrains',
         link: '/tools/jetbrains/',
