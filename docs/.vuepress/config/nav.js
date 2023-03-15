@@ -104,7 +104,7 @@ module.exports = [
       {
         text: '框架',
         link: '/backend/frame/',
-        items: [{ text: 'Laravel', link: '/backend/frame/laravel/' }]
+        items: [{ text: 'Laravel', link: '/laravel/' }]
       }
     ]
   },
