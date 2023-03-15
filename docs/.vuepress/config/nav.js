@@ -97,7 +97,7 @@ module.exports = [
         link: '/backend/languauge/',
         items: [
           { text: 'C语言', link: '/backend/languauge/c/' },
-          { text: 'PHP', link: '/backend/languauge/php/' },
+          { text: 'PHP', link: '/php/' },
           { text: 'Phyton', link: '/backend/languauge/phyton/' }
         ]
       },
