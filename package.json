@@ -1,6 +1,7 @@
 {
   "name": "chengcheng-blog",
   "version": "1.0.0",
+  "author": "carveybunt",
   "homepage": "https://github.com/carveybunt/blog",
   "scripts": {
     "dev": "vuepress dev docs",
